@@ -1,6 +1,6 @@
 import style from './Text.module.css';
 
-const Text = ({ children, textAlign = '', marginBottom = '0' }) => {
+const Text = ({ children, textAlign = 'center', marginBottom = '0' }) => {
   return (
     <p
       className={[
